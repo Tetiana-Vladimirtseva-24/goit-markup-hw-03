@@ -5,8 +5,23 @@ body {
     font-family: "Roboto", sans-serif;
 }
 /* HEADER */
-.page-nav {
+.header {
+    border-bottom: 1px solid#E7E9FC;
     background-color:#FFFFFF;
+}
+.container-header {
+    display: flex;
+}
+.container {
+    width: 1158px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px; 
+}
+.nav-menu {
+    display: flex;
+    align-items: center;
+    margin-right: 76px; 
 }
 .logo-web {
     color: var(--IRIS, #4D5AE5);
@@ -35,15 +50,27 @@ body {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
-
 }
+.list-nav {
+    display: flex;
+    gap: 40px;
+}
+.nav {
+   padding: 24px 0 24px 0;
+}
+
+
 .nav:hover , .nav:focus {
     color:#404bbf;
 }
 .address {
     font-style: normal;
+    
 }
-     
+  .contacts {
+    display: flex;
+    gap: 40px;
+  }   
 
 .contacts .contacts-item {
     color:#434455;
@@ -141,6 +168,12 @@ body {
 .our-portfolio-section {
     background:#FFF;
 }
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+/* Footer */
 .footer {
     background-color:#2E2F42;
 }
