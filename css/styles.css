@@ -33,9 +33,10 @@ ul{
     display: flex;
     align-items: center;
     margin-right: 76px; 
+}
+.nav {
     padding: 24px 0 24px 0;
 }
-
 .logo-web {
     color: var(--IRIS, #4D5AE5);
     font-family: "Raleway", sans-serif;
@@ -45,6 +46,7 @@ ul{
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-right: 76px;
 }
 .logo-studio {
     color:#2E2F42;
@@ -133,7 +135,16 @@ ul{
     padding: 120px 0 120px 0;
 }
 .visually-hidden {
-    display: none;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0 );
+    overflow: hidden;
 }
 .list-criteria {
     display: flex;
@@ -224,6 +235,19 @@ img {
 .footer {
     background-color:#2E2F42;
     padding: 100px 0;
+}
+.logo-web-footer {
+    color: var(--IRIS, #4D5AE5);
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-right: 76px;
+    display:inline-block;
+    margin-bottom: 16px;
 }
 
  .logo-studio-footer {
